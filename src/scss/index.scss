@@ -1,0 +1,13 @@
+:root {
+  --background: #674baf;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}

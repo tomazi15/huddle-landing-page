@@ -1,0 +1,28 @@
+@import "../../scss/mixins.scss";
+@import "../../scss/variables.scss";
+
+.Footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+
+  gap: 1rem;
+  height: 100%;
+
+  &__facebook {
+    @include social-media-container;
+  }
+
+  &__twitter {
+    @include social-media-container;
+  }
+
+  &__instagram {
+    @include social-media-container;
+  }
+
+  @media (min-width: $breakpoint-tablet) {
+    // height: 10%;
+  }
+}

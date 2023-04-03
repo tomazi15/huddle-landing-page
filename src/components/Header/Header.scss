@@ -1,0 +1,42 @@
+@import "../../scss/variables.scss";
+
+.Header {
+  background-image: url("../../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  height: 23.4rem;
+
+  &__logo {
+    display: flex;
+    flex-direction: column;
+    width: 8rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+
+  &__illustration {
+    width: 19rem;
+    margin-top: 3.7rem;
+  }
+  // Desktop
+  @media (min-width: $breakpoint-tablet) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-image: none;
+    padding-left: 4rem;
+
+    &__logo {
+      padding: 0rem;
+      padding-bottom: 5.5rem;
+      width: 12rem;
+    }
+
+    &__illustration {
+      margin: 0rem;
+      padding-bottom: 3.5rem;
+      height: 63vh;
+      width: 50vw;
+    }
+  }
+}
