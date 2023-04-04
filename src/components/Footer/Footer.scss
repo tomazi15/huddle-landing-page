@@ -21,8 +21,4 @@
   &__instagram {
     @include social-media-container;
   }
-
-  @media (min-width: $breakpoint-tablet) {
-    // height: 10%;
-  }
 }

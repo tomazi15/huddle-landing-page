@@ -8,10 +8,19 @@ const Footer: FC = (): JSX.Element => {
     <footer className="Footer">
       <TiSocialFacebook
         aria-label="facebook icon"
+        size={30}
         className="Footer__facebook"
       />
-      <TiSocialTwitter aria-label="twitter icon" className="Footer__twitter" />
-      <SiInstagram aria-label="instagram icon" className="Footer__instagram" />
+      <TiSocialTwitter
+        aria-label="twitter icon"
+        size={30}
+        className="Footer__twitter"
+      />
+      <SiInstagram
+        aria-label="instagram icon"
+        size={30}
+        className="Footer__instagram"
+      />
     </footer>
   );
 };
